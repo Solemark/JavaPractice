@@ -1,5 +1,5 @@
 /*
-COIT11134 - Assignment 1
+COIT11134 - Assignment 2
 File 2 of 2
 Student ID: s0257989
 Student Name: Mason Larcombe
@@ -120,6 +120,16 @@ public class Booking
     public int getGardenArea()                                      //retrieves garden area, accessor
     {
         return this.gardenArea;
+    }
+
+    public void setNumWeeks(int numWeeks)                       //allows garden area change, mutator
+    {
+        this.numWeeks=numWeeks;
+    }
+
+    public int getNumWeeks()                                      //retrieves garden area, accessor
+    {
+        return this.numWeeks;
     }
 
     @Override                                                       //converts data to string for output
